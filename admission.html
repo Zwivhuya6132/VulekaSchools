@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Educational Organization</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Vuleka-School-logo-2020.png" alt="">
+        </div>
+        <nav class="nav">
+          <ul>
+            <li class="active"><a href="index.html" >Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="schools.html">Schools</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="uniform.html">Uniform</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="donate-button" href="donate.html">Donate Now</a>
+    </header>
+
+    <section class="schools-h1">
+        <h1>ADMISSION</h1>
+    </section><br>
+
+    <form id="registration-form">
+        <label for="name-surname">Name and Surname:</label>
+        <input type="text" id="name-surname" name="name-surname" class="form-field" required>
+        <br>
+        <label for="id-number">ID Number:</label>
+        <input type="text" id="id-number" name="id-number" class="form-field" required>
+        <br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" class="form-field" required>
+          <option value="">Select gender:</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="select-options">School you are appling for:</label>
+        <select id="select-options" name="select-options" class="form-field" required>
+          <option value="">Select an option:</option>
+          <option value="option1">VULEKA ST MARTIN’S / JELLICOE ROSEBANK</option>
+          <option value="option2">VULEKA ST MARK’S NORTHRIDING</option>
+          <option value="option3">VULEKA ST MICHAEL’S WELTEVREDEN PARK</option>
+          <option value="option4">VULEKA ST JOSEPH’S SOPHIATOWN</option>
+          <option value="option5">Assisted Learning Centre</option>
+          <option value="option6">VSSB High SchooL</option>
+        </select>
+        <br>
+        <label for="application-year">Application Year:</label>
+        <input type="radio" id="year1" name="application-year" value="year1" class="form-field" required>
+        <label for="year1">2023</label>
+        <input type="radio" id="year2" name="application-year" value="year2" class="form-field">
+        <label for="year2">2024</label>
+        <input type="radio" id="year3" name="application-year" value="year3" class="form-field">
+        <label for="year3">2025</label>
+        <br>
+        <label for="contact-details">Contact Details:</label>
+        <input type="text" id="contact-details" name="contact-details" class="form-field" required>
+        <br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" class="form-field" required>
+        <br>
+        <input type="submit" value="Submit" id="submit-button">
+      </form><br><br>
+      
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-section abouts">
+            <h3 class="footer-section-title">About Us</h3>
+            <p>We are an independent, non-profit, Anglican Diocesan school providing affordable education. Non-Profit Organisation No. 007-155NPO | Public Benefit Organisation: ref 130 002 814</p>
+          </div>
+          <div class="footer-section contacts">
+            <h3 class="footer-section-title">Contact Us</h3>
+            <ul>
+              <li><i class="fa fa-map-marker"></i> 1234 Main St., Anytown, USA 12345</li>
+              <li><i class="fa fa-phone"></i> (123) 456-7890</li>
+              <li><i class="fa fa-envelope"></i> info@example.com</li>
+            </ul>
+          </div>
+          <div class="footer-section social">
+            <h3 class="footer-section-title">Follow Us</h3>
+            <ul>
+              <li><a href="https://www.facebook.com/VulekaSchool" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-square-facebook"></i></a></li>
+              <li><a href="https://twitter.com/VulekaSchool" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-square-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/vuleka.school/" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-square-instagram"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCRNSO7shOYGYuWaWd58JGbw" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-square-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Vuleka Schools. All Rights Reserved.</p>
+        </div>
+      </footer>
+      
+
+<script src="js.js"></script>
+<script src="all.js"></script>
+
+</body>
+</html>

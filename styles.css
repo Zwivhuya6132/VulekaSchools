@@ -79,7 +79,8 @@
   }
   
   .slide img {
-    width: 50%;
+/*     width: 50%; */
+      margin-bottom:25px;
     height: 350px;
   }
   

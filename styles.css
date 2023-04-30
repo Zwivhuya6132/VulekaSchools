@@ -79,8 +79,8 @@
   }
   
   .slide img {
-    width: 100%;
-    max-height: 350px;
+    width: 50%;
+    height: 350px;
   }
   
   .prev, .next {
